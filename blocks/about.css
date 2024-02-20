@@ -22,11 +22,9 @@
 @keyframes pulsate {
   0% {
     opacity: 0;
-    transform: scale(1);
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.4);
   }
   100% {
     opacity: 0;
@@ -73,4 +71,8 @@
   line-height: 30px;
   margin: 0 0 20px;
   color: white;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }

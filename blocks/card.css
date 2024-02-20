@@ -39,7 +39,7 @@
   display: flex;
 }
 
-.list__item:last-child {
+.card__list-item:last-child {
   margin-bottom: 0;
 }
 
